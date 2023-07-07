@@ -41,6 +41,7 @@ body{
   padding: 15px;
   border-radius: 10px;
   min-width: 76px;
+  flex-shrink: 1;
   
 }
 
@@ -83,6 +84,29 @@ body{
   background-color: rgb(191, 191, 191);
 }
 
+#title-text{
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+#title{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-left: 5%;
+  text-decoration: underline;
+}
+
+.second-text{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 @media (max-width: 900px){
   #logo-div{
     margin-left: 0;
@@ -92,6 +116,7 @@ body{
 
   #buttons{
     margin-right: 60px;
+    flex-shrink: 1;
   }
 
   .button{
@@ -102,6 +127,7 @@ body{
     border-style: none;
     padding: 10px;
     border-radius: 10px;
+    flex-shrink: 1;
     
   }
   #first-text{
@@ -116,6 +142,18 @@ body{
   #help-button{
     width: 200px;
     height: 70px;
+    font-size: 20px;
+  }
+
+  #title-text{
+    margin-top: 100px;
+  }
+
+  #title{
+    font-size: 30px;
+  }
+
+  .second-text{
     font-size: 20px;
   }
   
